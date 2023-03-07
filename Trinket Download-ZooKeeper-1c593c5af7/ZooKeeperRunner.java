@@ -35,7 +35,7 @@ public class ZooKeeperRunner
     Owl owl = new Owl();
     owl.hunt();
     Owl owl2 = new Owl("mice, insects", true, 4.0);
-    owl2.eat(); */
+    owl2.eat(); 
 
     ArrayList<Animal> animal = new ArrayList<Animal>();
 
@@ -62,7 +62,22 @@ public class ZooKeeperRunner
     animal.add(animal10);
 
 
-    hearTheAnimal(animal);
+    hearTheAnimal(animal);*/
+
+
+    Animal a = new Elephant("leaves, grasses, roots", false, 60.0);
+    a.isNocturnal();
+    //a.trumpet();
+
+    Object o = new Object();
+    System.out.println(o.toString());
+    Elephant e = new Elephant("leaves, grasses, roots", false, 60.0);
+    System.out.println(e.toString());
+
+    
+
+
+
   }
 
 

@@ -18,5 +18,10 @@ public class Elephant extends Animal{
     public void speak(){
         trumpet();
     }
+
+    public String toString()
+    {
+    return "This is an object of the Elephant class.";
+    }
     
 }
